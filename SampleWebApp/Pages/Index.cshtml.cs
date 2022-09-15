@@ -14,7 +14,7 @@ namespace SampleWebApp.Pages
 
         public void OnGet()
         {
-
+            _logger.LogInformation("Get started");
         }
     }
 }
